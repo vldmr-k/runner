@@ -21,6 +21,14 @@
 docker run --rm -it nitupkcuf/ddos-ripper:latest www.abc.com
 ```
 
+# Ripper+VPN
+1. Install docker and docker-compose
+2. Put openvpn config (extension must be .conf) into `vpn` subfolder
+3. In docker-compose.yml put your actual url instead of `www.rt.com`
+4. ```
+docker compose up
+```
+
 # Run from CLI/sources
 Python 3.10
 
